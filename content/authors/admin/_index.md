@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Yoonseo Zoh
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Yoonseo
+last_name: Zoh
 
 # Status emoji
 status:
@@ -14,15 +14,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Princeton University
+    url: https://psychology.princeton.edu//
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include moral decision-making, social neuroscience, and norm learning.
 
 # Interests to show in About widget
 interests:
@@ -80,5 +80,7 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I’m a rising 4th year PhD student in Department of Psychology at Princeton University, working with Dr. Molly J. Crockett. I received B.A. in Psychology and Education from Seoul National University with summa cum laude, and M.A. and M.phil. in Psychology (with concentration in Neuroscience) from Yale University.
+
+My research focuses on exploring the interaction between fundamental cognitive processes and systems of moral intuitions, and how they contribute to a wide range of human social behaviors. By integrating insights from decision-making systems, computational models, behavioral economics, and neuroscience, I aim to deepen our understanding of the mechanistic workings of the human social and moral mind.
 {style="text-align: justify;"}
