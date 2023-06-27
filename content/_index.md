@@ -16,9 +16,6 @@ sections:
       text: |-
         I’m a PhD student in Psychology at Princeton, aspring to be a social neuroscientist who studies human’s social & moral minds 💜 
 
-        
-
-
         <!--Custom spacing-->
         <div class="mb-3"></div>
         <!--GitHub Button JS-->
@@ -34,22 +31,22 @@ sections:
       title: About me
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: features
-    content:
-      title: Skills
-      items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
-          icon_pack: fas
+  #- block: features
+  #  content:
+  #    title: Skills
+  #    items:
+  #      - name: R
+  #        description: 90%
+  #        icon: r-project
+  #        icon_pack: fab
+  #      - name: Statistics
+  #        description: 100%
+  #        icon: chart-line
+  #        icon_pack: fas
+  #      - name: Photography
+  #        description: 10%
+  #        icon: camera-retro
+  #        icon_pack: fas
   - block: experience
     content:
       title: Experience
@@ -63,26 +60,22 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Graduate Student
-          company: GenCoin
+          company: Princeton University
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          company_logo: ''
+          location: Princeton, NJ
+          date_start: '2022-09-01'
           date_end: ''
-          description: |2-
-              Responsibilities include:
+          #description: |2-
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: Graduate Student
+          company: Yale University
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: ''
+          location: New Haven, CT
+          date_start: '2020-08-01'
+          date_end: '2022-08-31'
+          #description: Taught electronic engineering and #researched semiconductor physics.
     design:
       columns: '2'
   - block: accomplishments
@@ -98,66 +91,58 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
+        - certificate_url: 
+          date_end: '2024-06-01'
+          date_start: '2023-09-01'
           description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          organization: Kahneman-Treisman Center for Behavioral Science & Public Policy
+          organization_url: https://behavioralpolicy.princeton.edu/
+          title: The G. Mason Morfit ’97 Fellowship
           url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+        - certificate_url: 
+          date_end: '2025-09-01'
+          date_start: '2019-09-01'
+          description: 
+          organization: Korea Foundation for Advanced Studies
+          organization_url: https://eng.kfas.or.kr/
+          title: Scholarship for Doctoral Study Abroad
+          url: 
     design:
       columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
+  #- block: collection
+  #  id: posts
+  #  content:
+  #    title: Recent Posts
+  #    subtitle: ''
+  #    text: ''
+  #    # Choose how many pages you would like to display #(0 = all pages)
+ #     count: 5
+ #     # Filter on criteria
+ #     filters:
+ #       folders:
+ #         - post
+ #      author: ""
+ #       category: ""
+ #       tag: ""
+ #       exclude_featured: false
+ #       exclude_future: false
+ #       exclude_past: false
+ #       publication_type: ""
+ #     # Choose how many pages you would like to offset by
+ #     offset: 0
+ #     # Page order: descending (desc) or ascending (asc) date.
+ #     order: desc
+ #   design:
       # Choose a layout view
-      view: compact
-      columns: '2'
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
+ #     view: compact
+ #     columns: '2'
+#  - block: portfolio
+#    id: projects
+#    content:
+#      title: Projects
+#      filters:
+#        folders:
+#          - project
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       default_button_index: 0
       # Filter toolbar (optional).
@@ -178,89 +163,89 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+  #- block: markdown
+  #  content:
+  #    title: Gallery
+  #    subtitle: ''
+  #    text: |-
+  #      {{< gallery album="demo" >}}
+  #  design:
+  #    columns: '1'
+  #- block: collection
+  #  id: featured
+  #  content:
+  #    title: Featured Publications
+  #    filters:
+  #      folders:
+  #        - publication
+  #      featured_only: true
+  #  design:
+  #    columns: '2'
+  #    view: card
+  #- block: collection
+  #  content:
+  #    title: Recent Publications
+  #    text: |-
+  #      {{% callout note %}}
+  #      Quickly discover relevant content by [filtering publications](./publication/).
+  #      {{% /callout %}}
+  #    filters:
+  #      folders:
+  #        - publication
+  #      exclude_featured: true
+  #  design:
+  #    columns: '2'
+  #    view: citation
+  #- block: collection
+  #  id: talks
+  #  content:
+  #    title: Recent & Upcoming Talks
+  #    filters:
+  #      folders:
+  #        - event
+  #  design:
+  #    columns: '2'
+  #    view: compact
+  #- block: tag_cloud
+  #  content:
+  #    title: Popular Topics
+  #  design:
+  #    columns: '2'
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: yoonseo.zoh@princeton.edu
+    #  phone: 888 888 88 88
+    #  appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
+        street: Peretsman Scully Hall, 330
+        city: Princeton
+        region: NJ
+        postcode: '08540'
         country: United States
         country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+#      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+#      office_hours:
+#        - 'Monday 10:00 to 13:00'
+#        - 'Wednesday 09:00 to 10:00'
       contact_links:
         - icon: twitter
           icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+          name: Twitter
+          link: 'https://twitter.com/zohyos7'
+#        - icon: skype
+#          icon_pack: fab
+#          name: Skype Me
+#          link: 'skype:echo123?call'
+#        - icon: video
+#          icon_pack: fas
+#          name: Zoom Me
+#          link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
